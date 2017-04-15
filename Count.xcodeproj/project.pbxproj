@@ -14,6 +14,8 @@
 		590F6E391E6A9EEC00365A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590F6E371E6A9EEC00365A2A /* LaunchScreen.storyboard */; };
 		590F6E441E6A9EEC00365A2A /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F6E431E6A9EEC00365A2A /* CountTests.swift */; };
 		590F6E4F1E6A9EEC00365A2A /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F6E4E1E6A9EEC00365A2A /* CountUITests.swift */; };
+		590F6E5F1E6AA0BC00365A2A /* pos05_Kiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */; };
+		592595861E880132001C558D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 592595851E880132001C558D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		590F6E4A1E6A9EEC00365A2A /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590F6E4E1E6A9EEC00365A2A /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		590F6E501E6A9EEC00365A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pos05_Kiki.png; sourceTree = "<group>"; };
+		592595851E880132001C558D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		590F6E2D1E6A9EEC00365A2A /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */,
+				592595851E880132001C558D /* icon.png */,
 				590F6E2E1E6A9EEC00365A2A /* AppDelegate.swift */,
 				590F6E301E6A9EEC00365A2A /* ViewController.swift */,
 				590F6E321E6A9EEC00365A2A /* Main.storyboard */,
@@ -193,16 +199,18 @@
 				TargetAttributes = {
 					590F6E2A1E6A9EEC00365A2A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 72UU55A8N3;
+						LastSwiftMigration = 0820;
 					};
 					590F6E3E1E6A9EEC00365A2A = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 72UU55A8N3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 590F6E2A1E6A9EEC00365A2A;
 					};
 					590F6E491E6A9EEC00365A2A = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 72UU55A8N3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 590F6E2A1E6A9EEC00365A2A;
 					};
 				};
@@ -233,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				590F6E391E6A9EEC00365A2A /* LaunchScreen.storyboard in Resources */,
+				592595861E880132001C558D /* icon.png in Resources */,
 				590F6E361E6A9EEC00365A2A /* Assets.xcassets in Resources */,
 				590F6E341E6A9EEC00365A2A /* Main.storyboard in Resources */,
+				590F6E5F1E6AA0BC00365A2A /* pos05_Kiki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Count/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -411,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Count/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -426,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.CountTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count.app/Count";
 			};
 			name = Debug;
@@ -438,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.CountTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count.app/Count";
 			};
 			name = Release;
@@ -449,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.CountUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Count;
 				USES_XCTRUNNER = YES;
 			};
@@ -461,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Erika-Maemoto.CountUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Count;
 				USES_XCTRUNNER = YES;
 			};
@@ -485,6 +505,7 @@
 				590F6E551E6A9EEC00365A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		590F6E561E6A9EEC00365A2A /* Build configuration list for PBXNativeTarget "CountTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +514,7 @@
 				590F6E581E6A9EEC00365A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		590F6E591E6A9EEC00365A2A /* Build configuration list for PBXNativeTarget "CountUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				590F6E5B1E6A9EEC00365A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
