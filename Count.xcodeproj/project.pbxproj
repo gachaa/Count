@@ -16,6 +16,10 @@
 		590F6E4F1E6A9EEC00365A2A /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F6E4E1E6A9EEC00365A2A /* CountUITests.swift */; };
 		590F6E5F1E6AA0BC00365A2A /* pos05_Kiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */; };
 		592595861E880132001C558D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 592595851E880132001C558D /* icon.png */; };
+		59E2795E1EA204D000C302A7 /* fiftyYen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E2795C1EA204D000C302A7 /* fiftyYen.png */; };
+		59E2795F1EA204D000C302A7 /* fiveYen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E2795D1EA204D000C302A7 /* fiveYen.png */; };
+		59E279621EA204E100C302A7 /* oneYen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E279601EA204E000C302A7 /* oneYen.png */; };
+		59E279631EA204E100C302A7 /* tenYen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E279611EA204E100C302A7 /* tenYen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		590F6E501E6A9EEC00365A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pos05_Kiki.png; sourceTree = "<group>"; };
 		592595851E880132001C558D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
+		59E2795C1EA204D000C302A7 /* fiftyYen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fiftyYen.png; path = images/fiftyYen.png; sourceTree = "<group>"; };
+		59E2795D1EA204D000C302A7 /* fiveYen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fiveYen.png; path = images/fiveYen.png; sourceTree = "<group>"; };
+		59E279601EA204E000C302A7 /* oneYen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oneYen.png; path = images/oneYen.png; sourceTree = "<group>"; };
+		59E279611EA204E100C302A7 /* tenYen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tenYen.png; path = images/tenYen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		590F6E2D1E6A9EEC00365A2A /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				59E279601EA204E000C302A7 /* oneYen.png */,
+				59E279611EA204E100C302A7 /* tenYen.png */,
+				59E2795C1EA204D000C302A7 /* fiftyYen.png */,
+				59E2795D1EA204D000C302A7 /* fiveYen.png */,
 				590F6E5E1E6AA0BC00365A2A /* pos05_Kiki.png */,
 				592595851E880132001C558D /* icon.png */,
 				590F6E2E1E6A9EEC00365A2A /* AppDelegate.swift */,
@@ -243,8 +255,12 @@
 				590F6E391E6A9EEC00365A2A /* LaunchScreen.storyboard in Resources */,
 				592595861E880132001C558D /* icon.png in Resources */,
 				590F6E361E6A9EEC00365A2A /* Assets.xcassets in Resources */,
+				59E279621EA204E100C302A7 /* oneYen.png in Resources */,
 				590F6E341E6A9EEC00365A2A /* Main.storyboard in Resources */,
+				59E2795F1EA204D000C302A7 /* fiveYen.png in Resources */,
 				590F6E5F1E6AA0BC00365A2A /* pos05_Kiki.png in Resources */,
+				59E2795E1EA204D000C302A7 /* fiftyYen.png in Resources */,
+				59E279631EA204E100C302A7 /* tenYen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
